@@ -1,0 +1,434 @@
+/* start main rules*/
+body{height:4000px;}
+
+.container{
+	width:1170px;
+	margin:auto;
+}
+* h2{text-transform:capitalize;}
+
+* p{color:#666;font-family:arial;font-weight:bold;line-height:1.6;}
+
+* button{cursor:pointer;}
+
+
+/* end main rules*/
+
+/* start header */
+.header .silde  {
+	background-image:url('../image/12.png');
+	background-size:cover;
+	height:450px;
+    
+}
+
+
+.header .silde .intro{
+	color:#eee;
+	text-align:center;
+	padding-top:120px;
+}
+
+.header .silde .intro h2 {
+	width:600px;
+	margin:0 auto;
+	font-size:40px;
+	border-top:4px solid #eee;
+	border-bottom:4px solid #eee;
+	padding:10px 0;
+	font-weight:bold;
+}
+
+.header .silde .intro button {
+	background:none;
+	border:3px solid #eee;
+	margin-top:40px;
+	color:#eee;
+	font-weight:bold;
+	font-size:25px;
+	padding:5px 10px;
+
+}	
+
+.navbar {
+	background-color:#252F31;
+	color:#fff;
+	overflow:hidden;
+    position:relative;
+    z-index:111;
+	
+}
+
+.navbar  h2{text-transform:uppercase;float:left;}
+
+.navbar  h2 span{color:#2ecc71;}
+
+.navbar  ul{
+	list-style:none;
+	padding-left:0;
+	overflow:hidden;
+	float:right;
+	
+}
+
+.navbar ul li{
+	
+	padding:10px;
+	text-transform:capitalize;
+	float:right;
+	
+}
+a{
+	text-decoration:none;
+	color:#fff;
+	font-size:20px;
+}
+a:hover , .activ{color:#2ecc71;}
+/* end header */
+
+/* Start Features */
+
+.features{
+    overflow:hidden;
+    padding-top:30px;
+    padding-bottom:30px;
+    position:relative;
+    z-index:0;
+}
+
+.features .feet{
+	width:33.33333%;
+	height:150px;
+	float:left;
+	margin:30px 0 50px;
+    
+}
+
+.features .feet h1{
+	text-transform:none;
+}
+
+.features .feet p {font-weight:bold;font-family:Arial;color:#888;}
+/* Start About My */
+
+.aboutme{
+	background-color:#f2f2f2;
+	overflow:hidden;
+    position:relative;
+    z-index:0;
+}
+
+.aboutme .image{
+	float:left;
+	width:40%;
+}
+
+.aboutme .info{
+	float:left;
+	width:60%;
+}
+
+.aboutme .image img{
+	width:100%;
+	max-height: 494px;
+}
+
+.aboutme .info h2{
+	margin:25px 0 20px 54px;
+}
+
+.aboutme .info p{
+	margin:-10px 0 15px 56px;
+	line-height:1.6;
+	color:#555;
+}
+
+.aboutme .info > p:last-of-type{margin-top:30px;}
+
+.aboutme .info .hobbies{
+margin:0 0 0 40px;
+	overflow:hidden;
+
+}
+
+
+ .aboutme .info .hobbies .containt{
+	width:50%;
+	float:left;
+	min-height:100px;
+	overflow:hidden ;
+	
+}
+ 
+.aboutme .info .hobbies .containt .icon{width:12%;float:left;margin-right:5%;}
+
+.aboutme .info .hobbies .containt .icon img{max-width:100%;float:left;margin:10px 10px 0 7px;}
+
+.aboutme .info .hobbies .containt .icon text{width:83%;float:left;}
+
+.aboutme .info .hobbies .containt .icon text h3{color:#555;margin-bottom:5px;}
+
+.aboutme .info .hobbies .containt .icon text p{color:#333;margin-top:0;}
+
+/* End About My */
+
+/* Start My Skills */
+
+.myskills{
+	padding-top:30px;
+	padding-bottom:30px;
+	overflow:hidden;
+    position:relative;
+    z-index:0;
+}
+
+.myskills .skills , .myskills .progrees{
+	width:50%;
+	float:left;	
+}
+
+.myskills .skills h2{margin:30px 0 20px 40px;text-transform:capitalize;}
+
+.myskills .skills p{margin-left:40px;line-height:1.7;}
+
+.myskills .skills p:last-of-type{margin-top:25px;}
+
+.myskills .skills button{
+	background:none;
+	border:3px solid #2dcc70;
+	color:#2dcc70;
+	padding:10px 30px;
+	margin-left:40px;
+	margin-top:20px;
+	margin-bottom:30px;
+	font-weight:bold;
+	font-size:15px;
+
+
+}
+
+.progrees .technique div{background-color:#f2f2f2;height:25px;}
+
+.progrees .technique span{
+	height:25px;
+	background-color:#2dcc70;
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	text-indent:20px;
+	line-height:25px;
+}
+
+
+/* End My Skills */
+
+/* Start Resume */
+
+.resume{
+	background:#f2f2f2;
+	padding-top:30px;
+	padding-bottom:30px;
+	text-align:center;
+    position:relative;
+    z-index:0;
+}
+
+.resume p{line-height:1.7;color:#666;}
+
+.resume button{
+	background:none;
+	color:#2dcc70;
+	border:3px solid #2dcc70;
+	font-weight:bold;
+	margin-top:15px;
+	padding:10px 20px;
+	font-size:15px;
+}
+
+
+
+/* End Resume */
+
+/* Start My Education */
+
+.myeducation{
+	padding-top:30px;
+	padding-bottom:30px;
+	overflow:hidden;
+
+}
+
+.myeducation .main , .myeducation .exp {
+	float:left;
+	width:45%;
+	margin-left:15px;	
+}
+
+.myeducation .main p{margin:20px 0 35px 0;}
+
+.myeducation .exp h3{margin-top:68px;margin-bottom:-5px}
+
+.myeducation .exp span{background:#2dcc70;color:#eee;padding:4px 10px;}
+
+.myeducation .exp hr{margin:40px 0 0 0;}
+
+.myeducation .exp p:last-of-type{margin-bottom:40px;}
+
+
+.clearfix{clear:both;}
+
+/* End My Education */
+
+/* Start Testimonalis */
+
+.testimonalis{
+	background-color:#f2f2f2;
+	padding-top:30px;
+	padding-bottom:30px;
+	overflow:hidden;
+	text-align:center;
+}
+
+.testimonalis ul{list-style:none;padding-left:0;}
+
+.testimonalis ul li{
+	width:10px;
+	height:10px;
+	border:2px solid #2dcc70;
+	border-radius:50%;
+	display:inline-block;
+	cursor:pointer;
+	text-align:center;
+}
+
+.testimonalis ul li .active, 
+
+.testimonalis ul li:hover{background-color:#2dcc70;}
+
+/* End Testimonalis */
+
+/* Start Portofolio */
+
+.portofolio{
+	padding-top:30px;
+	padding-bottom:50px;
+	text-align:center;
+	overflow:hidden;
+}
+
+.portofolio .ourwork > div {
+	margin-bottom:10px;
+	float:left;
+	width:33.333333%;
+	overflow:hidden;
+}
+
+.portofolio .ourwork > div img {
+	margin:10px;
+	width:92%;
+	border: 3px double #000;
+	height:360px;
+}
+
+/* End Portofolio */
+
+/* Start Contact Me */
+
+.contact{
+	background-color:#252f31;
+	padding-top:30px;
+	padding-bottom:30px;
+	overflow:hidden;
+
+}
+
+.contact .info {
+	width:50%;
+	float:left;
+	margin-right:5%;
+}
+
+.contact h2{
+	color:#fff;
+	margin-left:10px;
+	
+}
+
+.contact  p{
+	color:#6a6e71;
+	margin-left:10px;
+}
+
+.contact .address {margin-top:40px;}
+
+.contact .address p{margin:0 0 0 10px;}
+
+.contact .mail{margin:40px 0;}
+
+.contact .mail h3{color:#eee;}
+
+.contact .mail h3 span{color:#6a6e71;}
+
+
+ .contact .form{
+	width:45%;
+	float:left;
+}
+
+.contact .container .form label{
+	display:block;
+	color:#D2D2D2;
+	margin-bottom:10px;
+	margin-top:20px;
+}
+
+.contact .container .form input[type="text"]{
+	background-color:#4B5557;
+	width:80%;
+	padding:8px;
+	margin-bottom:10px;
+}
+
+.contact .form textarea[type="comment"]{
+	width:83%;
+	height:300px;
+	background-color:#4B5557;
+}
+
+.contact .container .form button{
+    background-color: rgba(12, 20, 21, 0.86);
+    color: #EEE;
+    margin-top: 10px;
+    padding: 5px 13px;
+}
+
+
+/* End Contact Me */
+
+/* Start Footer */
+
+.footer{
+	background-color:#191e22;
+	color:#6a6e71;
+	text-align:center;
+	padding:20px 0;
+	overflow:hidden;
+}
+
+.footer ul{
+	list-style:none;
+	margin-left:100px;
+}
+.footer ul li{
+	float:left;
+	padding:5px;
+}
+
+
+
+/* End Footer */
+
+
+
+
+
